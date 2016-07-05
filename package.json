@@ -1,0 +1,33 @@
+{
+  "name": "postcss-filter-tint",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to add tint filter to element",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "tint",
+    "filter"
+  ],
+  "author": "alexlibby <alex.libby@outlook.com>",
+  "license": "MIT",
+  "repository": "alexlibby/postcss-filter-tint",
+  "bugs": {
+    "url": "https://github.com/alexlibby/postcss-filter-tint/issues"
+  },
+  "homepage": "https://github.com/alexlibby/postcss-filter-tint",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
