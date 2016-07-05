@@ -1,4 +1,4 @@
-# PostCSS Filter Tint [![Build Status][ci-img]][ci]
+# Tint Filter for PostCSS [![Build Status][ci-img]][ci]
 
 [PostCSS] plugin to add tint filter to element.
 
