@@ -20,6 +20,13 @@ Output:
 }
 ```
 
+
+## Installation
+```js 
+$ npm install postcss-filter-tint
+```
+
+
 ## Usage
 
 ```js
