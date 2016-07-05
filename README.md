@@ -7,14 +7,16 @@
 [ci]:      https://travis-ci.org/alexlibby/postcss-filter-tint
 
 ```css
+Input:
 .foo {
-    /* Input example */
+    filter: tint(1, 200);
 }
 ```
 
 ```css
+Output:
 .foo {
-  /* Output example */
+  filter: sepia(1) hue-rotate(200deg);
 }
 ```
 
@@ -23,5 +25,6 @@
 ```js
 postcss([ require('postcss-filter-tint') ])
 ```
+It is recommended that you use Autoprefixer to add vendor prefixes.
 
 See [PostCSS] docs for examples for your environment.
